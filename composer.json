@@ -5,7 +5,7 @@
   "type": "library",
   "autoload": {
     "psr-4": {
-      "": "src/"
+      "Exchanger\\Api\\": "src/"
     }
   },
   "authors": [
