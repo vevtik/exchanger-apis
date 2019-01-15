@@ -1,0 +1,24 @@
+{
+  "name": "vevtik/exchanger-apis",
+  "description": "Exchange rate apis",
+  "license": "proprietary",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Vladimir Dimitrischuck",
+      "email": "vevtik@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-SimpleXML": "*"
+  },
+  "minimum-stability": "dev"
+}
